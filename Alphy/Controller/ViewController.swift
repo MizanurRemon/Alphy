@@ -83,7 +83,7 @@ class ViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
     
-    /*@IBAction func actionA(_ sender: Any) {
+    @IBAction func actionA(_ sender: Any) {
         let noise = Bundle.main.url(forResource: "a", withExtension: "mp3")
         
         player = try! AVAudioPlayer(contentsOf: noise!)
@@ -293,7 +293,7 @@ class ViewController: UIViewController {
         player = try! AVAudioPlayer(contentsOf: noise!)
         
         player.play()
-    }*/
+    }
     
     
 }
