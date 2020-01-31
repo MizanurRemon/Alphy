@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76980FD523E4A08E00778052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76980FD423E4A08E00778052 /* AppDelegate.swift */; };
+		76980FD723E4A08E00778052 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76980FD623E4A08E00778052 /* SceneDelegate.swift */; };
+		76980FD923E4A08E00778052 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76980FD823E4A08E00778052 /* ViewController.swift */; };
+		76980FDC23E4A08E00778052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76980FDA23E4A08E00778052 /* Main.storyboard */; };
+		76980FDE23E4A09700778052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76980FDD23E4A09700778052 /* Assets.xcassets */; };
+		76980FE123E4A09700778052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76980FDF23E4A09700778052 /* LaunchScreen.storyboard */; };
+		76980FEC23E4A09700778052 /* AlphyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76980FEB23E4A09700778052 /* AlphyTests.swift */; };
+		76980FF723E4A09700778052 /* AlphyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76980FF623E4A09700778052 /* AlphyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76980FE823E4A09700778052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76980FC923E4A08E00778052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76980FD023E4A08E00778052;
+			remoteInfo = Alphy;
+		};
+		76980FF323E4A09700778052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76980FC923E4A08E00778052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76980FD023E4A08E00778052;
+			remoteInfo = Alphy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76980FD123E4A08E00778052 /* Alphy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alphy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76980FD423E4A08E00778052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76980FD623E4A08E00778052 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		76980FD823E4A08E00778052 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76980FDB23E4A08E00778052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76980FDD23E4A09700778052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76980FE023E4A09700778052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76980FE223E4A09700778052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76980FE723E4A09700778052 /* AlphyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76980FEB23E4A09700778052 /* AlphyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphyTests.swift; sourceTree = "<group>"; };
+		76980FED23E4A09700778052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76980FF223E4A09700778052 /* AlphyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76980FF623E4A09700778052 /* AlphyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphyUITests.swift; sourceTree = "<group>"; };
+		76980FF823E4A09700778052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76980FCE23E4A08E00778052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76980FE423E4A09700778052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76980FEF23E4A09700778052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76980FC823E4A08E00778052 = {
+			isa = PBXGroup;
+			children = (
+				76980FD323E4A08E00778052 /* Alphy */,
+				76980FEA23E4A09700778052 /* AlphyTests */,
+				76980FF523E4A09700778052 /* AlphyUITests */,
+				76980FD223E4A08E00778052 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76980FD223E4A08E00778052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76980FD123E4A08E00778052 /* Alphy.app */,
+				76980FE723E4A09700778052 /* AlphyTests.xctest */,
+				76980FF223E4A09700778052 /* AlphyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76980FD323E4A08E00778052 /* Alphy */ = {
+			isa = PBXGroup;
+			children = (
+				76980FD423E4A08E00778052 /* AppDelegate.swift */,
+				76980FD623E4A08E00778052 /* SceneDelegate.swift */,
+				76980FD823E4A08E00778052 /* ViewController.swift */,
+				76980FDA23E4A08E00778052 /* Main.storyboard */,
+				76980FDD23E4A09700778052 /* Assets.xcassets */,
+				76980FDF23E4A09700778052 /* LaunchScreen.storyboard */,
+				76980FE223E4A09700778052 /* Info.plist */,
+			);
+			path = Alphy;
+			sourceTree = "<group>";
+		};
+		76980FEA23E4A09700778052 /* AlphyTests */ = {
+			isa = PBXGroup;
+			children = (
+				76980FEB23E4A09700778052 /* AlphyTests.swift */,
+				76980FED23E4A09700778052 /* Info.plist */,
+			);
+			path = AlphyTests;
+			sourceTree = "<group>";
+		};
+		76980FF523E4A09700778052 /* AlphyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76980FF623E4A09700778052 /* AlphyUITests.swift */,
+				76980FF823E4A09700778052 /* Info.plist */,
+			);
+			path = AlphyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76980FD023E4A08E00778052 /* Alphy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76980FFB23E4A09700778052 /* Build configuration list for PBXNativeTarget "Alphy" */;
+			buildPhases = (
+				76980FCD23E4A08E00778052 /* Sources */,
+				76980FCE23E4A08E00778052 /* Frameworks */,
+				76980FCF23E4A08E00778052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alphy;
+			productName = Alphy;
+			productReference = 76980FD123E4A08E00778052 /* Alphy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76980FE623E4A09700778052 /* AlphyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76980FFE23E4A09700778052 /* Build configuration list for PBXNativeTarget "AlphyTests" */;
+			buildPhases = (
+				76980FE323E4A09700778052 /* Sources */,
+				76980FE423E4A09700778052 /* Frameworks */,
+				76980FE523E4A09700778052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76980FE923E4A09700778052 /* PBXTargetDependency */,
+			);
+			name = AlphyTests;
+			productName = AlphyTests;
+			productReference = 76980FE723E4A09700778052 /* AlphyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76980FF123E4A09700778052 /* AlphyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7698100123E4A09700778052 /* Build configuration list for PBXNativeTarget "AlphyUITests" */;
+			buildPhases = (
+				76980FEE23E4A09700778052 /* Sources */,
+				76980FEF23E4A09700778052 /* Frameworks */,
+				76980FF023E4A09700778052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76980FF423E4A09700778052 /* PBXTargetDependency */,
+			);
+			name = AlphyUITests;
+			productName = AlphyUITests;
+			productReference = 76980FF223E4A09700778052 /* AlphyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76980FC923E4A08E00778052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mizanur Remon";
+				TargetAttributes = {
+					76980FD023E4A08E00778052 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					76980FE623E4A09700778052 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 76980FD023E4A08E00778052;
+					};
+					76980FF123E4A09700778052 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 76980FD023E4A08E00778052;
+					};
+				};
+			};
+			buildConfigurationList = 76980FCC23E4A08E00778052 /* Build configuration list for PBXProject "Alphy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76980FC823E4A08E00778052;
+			productRefGroup = 76980FD223E4A08E00778052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76980FD023E4A08E00778052 /* Alphy */,
+				76980FE623E4A09700778052 /* AlphyTests */,
+				76980FF123E4A09700778052 /* AlphyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76980FCF23E4A08E00778052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76980FE123E4A09700778052 /* LaunchScreen.storyboard in Resources */,
+				76980FDE23E4A09700778052 /* Assets.xcassets in Resources */,
+				76980FDC23E4A08E00778052 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76980FE523E4A09700778052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76980FF023E4A09700778052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76980FCD23E4A08E00778052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76980FD923E4A08E00778052 /* ViewController.swift in Sources */,
+				76980FD523E4A08E00778052 /* AppDelegate.swift in Sources */,
+				76980FD723E4A08E00778052 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76980FE323E4A09700778052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76980FEC23E4A09700778052 /* AlphyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76980FEE23E4A09700778052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76980FF723E4A09700778052 /* AlphyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76980FE923E4A09700778052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76980FD023E4A08E00778052 /* Alphy */;
+			targetProxy = 76980FE823E4A09700778052 /* PBXContainerItemProxy */;
+		};
+		76980FF423E4A09700778052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76980FD023E4A08E00778052 /* Alphy */;
+			targetProxy = 76980FF323E4A09700778052 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76980FDA23E4A08E00778052 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76980FDB23E4A08E00778052 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76980FDF23E4A09700778052 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76980FE023E4A09700778052 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76980FF923E4A09700778052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76980FFA23E4A09700778052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76980FFC23E4A09700778052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Alphy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = remon.Alphy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76980FFD23E4A09700778052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Alphy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = remon.Alphy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76980FFF23E4A09700778052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlphyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = remon.AlphyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alphy.app/Alphy";
+			};
+			name = Debug;
+		};
+		7698100023E4A09700778052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlphyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = remon.AlphyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alphy.app/Alphy";
+			};
+			name = Release;
+		};
+		7698100223E4A09700778052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlphyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = remon.AlphyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alphy;
+			};
+			name = Debug;
+		};
+		7698100323E4A09700778052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlphyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = remon.AlphyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alphy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76980FCC23E4A08E00778052 /* Build configuration list for PBXProject "Alphy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76980FF923E4A09700778052 /* Debug */,
+				76980FFA23E4A09700778052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76980FFB23E4A09700778052 /* Build configuration list for PBXNativeTarget "Alphy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76980FFC23E4A09700778052 /* Debug */,
+				76980FFD23E4A09700778052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76980FFE23E4A09700778052 /* Build configuration list for PBXNativeTarget "AlphyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76980FFF23E4A09700778052 /* Debug */,
+				7698100023E4A09700778052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7698100123E4A09700778052 /* Build configuration list for PBXNativeTarget "AlphyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7698100223E4A09700778052 /* Debug */,
+				7698100323E4A09700778052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76980FC923E4A08E00778052 /* Project object */;
+}
