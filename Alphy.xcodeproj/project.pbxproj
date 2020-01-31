@@ -101,8 +101,8 @@
 			children = (
 				76980FD423E4A08E00778052 /* AppDelegate.swift */,
 				76980FD623E4A08E00778052 /* SceneDelegate.swift */,
-				76980FD823E4A08E00778052 /* ViewController.swift */,
-				76980FDA23E4A08E00778052 /* Main.storyboard */,
+				7698100423E4A0AE00778052 /* Controller */,
+				7698100523E4A0C400778052 /* View */,
 				76980FDD23E4A09700778052 /* Assets.xcassets */,
 				76980FDF23E4A09700778052 /* LaunchScreen.storyboard */,
 				76980FE223E4A09700778052 /* Info.plist */,
@@ -126,6 +126,22 @@
 				76980FF823E4A09700778052 /* Info.plist */,
 			);
 			path = AlphyUITests;
+			sourceTree = "<group>";
+		};
+		7698100423E4A0AE00778052 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76980FD823E4A08E00778052 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7698100523E4A0C400778052 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76980FDA23E4A08E00778052 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
