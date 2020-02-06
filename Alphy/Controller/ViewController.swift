@@ -10,7 +10,33 @@ import UIKit
 import AVFoundation
 class ViewController: UIViewController {
 
+    @IBOutlet weak var segmenToulet: UISegmentedControl!
+    
     var player = AVAudioPlayer()
+    
+    var sliding = false
+    var newSliding = false
+    
+    @IBOutlet weak var trailing: NSLayoutConstraint!
+    @IBOutlet weak var leading: NSLayoutConstraint!
+    
+    @IBOutlet weak var newTrailing: NSLayoutConstraint!
+    @IBOutlet weak var newLeading: NSLayoutConstraint!
+    
+    @IBOutlet weak var imageShow: UIImageView!
+    @IBOutlet weak var sImageShow: UIImageView!
+    
+    @IBOutlet weak var bsoro: UIButton!
+    @IBOutlet weak var bsora: UIButton!
+    @IBOutlet weak var rossi: UIButton!
+    @IBOutlet weak var dirghoi: UIButton!
+    @IBOutlet weak var rossu: UIButton!
+    @IBOutlet weak var dighou: UIButton!
+    @IBOutlet weak var ri: UIButton!
+    @IBOutlet weak var ba: UIButton!
+    @IBOutlet weak var baoi: UIButton!
+    @IBOutlet weak var bao: UIButton!
+    @IBOutlet weak var baou: UIButton!
     
     @IBOutlet weak var buttonA: UIButton!
     @IBOutlet weak var buttonB: UIButton!
@@ -69,6 +95,19 @@ class ViewController: UIViewController {
         buttonX.layer.cornerRadius = 6
         buttonY.layer.cornerRadius = 6
         buttonZ.layer.cornerRadius = 6
+        
+        bsoro.layer.cornerRadius = 6
+        bsora.layer.cornerRadius = 6
+        rossi.layer.cornerRadius = 6
+        dirghoi.layer.cornerRadius = 6
+        rossu.layer.cornerRadius = 6
+        dighou.layer.cornerRadius = 6
+        ri.layer.cornerRadius = 6
+        ba.layer.cornerRadius = 6
+        baoi.layer.cornerRadius = 6
+        bao.layer.cornerRadius = 6
+        baou.layer.cornerRadius = 6
+        
     }
 
     @IBAction func quitAction(_ sender: Any) {
@@ -83,7 +122,46 @@ class ViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
     
+    @IBAction func slider(_ sender: Any) {
+        if( (sender as AnyObject).isOn == true){
+            leading.constant = 375
+            trailing.constant = 375
+            
+            sliding = false
+        }
+        else{
+            leading.constant = 0
+            trailing.constant = 0
+            
+            sliding = true
+        }
+    }
+    
+    @IBAction func segmentTapped(_ sender: UISegmentedControl) {
+        
+        let getIndex = segmenToulet.selectedSegmentIndex
+        
+        if getIndex == 0{
+            
+            newTrailing.constant = 0
+            newLeading.constant = 0
+            
+            newSliding = false
+            
+        }
+        
+        else if getIndex == 1{
+            
+            newTrailing.constant = 375
+            newLeading.constant = 375
+            
+            newSliding = true
+        }
+    }
+    
     @IBAction func actionA(_ sender: Any) {
+        imageShow.image = UIImage(named: "apple.png")
+        
         let noise = Bundle.main.url(forResource: "a", withExtension: "mp3")
         
         player = try! AVAudioPlayer(contentsOf: noise!)
@@ -92,6 +170,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionB(_ sender: Any) {
+        imageShow.image = UIImage(named: "baseball.png")
+        
         let noise = Bundle.main.url(forResource: "b", withExtension: "mp3")
                
                player = try! AVAudioPlayer(contentsOf: noise!)
@@ -101,6 +181,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func actionC(_ sender: Any) {
+        imageShow.image = UIImage(named: "clock.png")
         
         let noise = Bundle.main.url(forResource: "c", withExtension: "mp3")
         
@@ -110,6 +191,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionD(_ sender: Any) {
+        imageShow.image = UIImage(named: "donkey.png")
+        
         let noise = Bundle.main.url(forResource: "d", withExtension: "mp3")
         
         player = try! AVAudioPlayer(contentsOf: noise!)
@@ -119,6 +202,8 @@ class ViewController: UIViewController {
     
     
     @IBAction func actionE(_ sender: Any) {
+        imageShow.image = UIImage(named: "elephant.png")
+        
         let noise = Bundle.main.url(forResource: "e", withExtension: "mp3")
         
         player = try! AVAudioPlayer(contentsOf: noise!)
@@ -127,6 +212,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionF(_ sender: Any) {
+        imageShow.image = UIImage(named: "football.png")
         let noise = Bundle.main.url(forResource: "f", withExtension: "mp3")
         
         player = try! AVAudioPlayer(contentsOf: noise!)
@@ -135,6 +221,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionG(_ sender: Any) {
+        imageShow.image = UIImage(named: "goat.png")
+        
         let noise = Bundle.main.url(forResource: "g", withExtension: "mp3")
         
         player = try! AVAudioPlayer(contentsOf: noise!)
@@ -143,6 +231,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionH(_ sender: Any) {
+        imageShow.image = UIImage(named: "hat.png")
+        
         let noise = Bundle.main.url(forResource: "h", withExtension: "mp3")
         
         player = try! AVAudioPlayer(contentsOf: noise!)
@@ -151,6 +241,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionI(_ sender: Any) {
+        imageShow.image = UIImage(named: "ice.png")
+        
         let noise = Bundle.main.url(forResource: "i", withExtension: "mp3")
         
         player = try! AVAudioPlayer(contentsOf: noise!)
@@ -159,6 +251,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionJ(_ sender: Any) {
+        imageShow.image = UIImage(named: "jug.png")
+        
         let noise = Bundle.main.url(forResource: "j", withExtension: "mp3")
         
         player = try! AVAudioPlayer(contentsOf: noise!)
@@ -167,6 +261,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionK(_ sender: Any) {
+        imageShow.image = UIImage(named: "kite.png")
         
         let noise = Bundle.main.url(forResource: "k", withExtension: "mp3")
         
